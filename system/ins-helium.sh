@@ -1,4 +1,4 @@
-#Autoscript By NevermoreSSH
+#Autoscript By cdr23
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'
@@ -14,7 +14,7 @@ if [[ -e /usr/local/sbin/helium ]]; then
 else
 
 rm -rf /usr/local/sbin/helium
-wget -q -O /usr/local/sbin/helium https://raw.githubusercontent.com/NevermoreSSH/sapphire/main/helium.sh
+wget -q -O /usr/local/sbin/helium https://raw.githubusercontent.com/cdr23/sapphire/main/helium.sh
 chmod +x /usr/local/sbin/helium
 helium
 
