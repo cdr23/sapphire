@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="cdr23"
 # Color Validation
 Lred='\e[1;91m'
 Lgreen='\e[92m'
@@ -268,13 +268,13 @@ echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
-echo -e "\e[1;32m══════════════════ Autoscript By NevermoreSSH ══════════════════\e[0m" | tee -a log-install.txt
+echo -e "\e[1;32m══════════════════ Autoscript By cdr23 ══════════════════\e[0m" | tee -a log-install.txt
 sleep 7
 clear
 echo ""
 echo -e "    \e[1;32m.------------------------------------------.\e[0m"
 echo -e "    \e[1;32m|     SUCCESFULLY INSTALLED THE SCRIPT     |\e[0m"
-echo -e "    \e[1;32m|         PREMIUM BY NevermoreSSH          |\e[0m"
+echo -e "    \e[1;32m|             PREMIUM BY cdr23            |\e[0m"
 echo -e "    \e[1;32m'------------------------------------------'\e[0m"
 echo ""
 echo -e "   \e[1;32mYour VPS Will Be Automatical Reboot In 5 seconds\e[0m"
