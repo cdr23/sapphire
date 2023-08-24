@@ -114,6 +114,7 @@ wget -O autobackup "https://raw.githubusercontent.com/${GitUser}/sapphire/main/s
 wget -O backup "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/backup.sh"
 wget -O bckp "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/bckp.sh"
 wget -O restore "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/restore.sh"
+wget -O addip "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu/addip.sh"
 chmod +x update
 chmod +x run-update
 chmod +x message-ssh
@@ -132,6 +133,7 @@ chmod +x autobackup
 chmod +x backup
 chmod +x bckp
 chmod +x restore
+chmod +x addip
 clear
 echo -e ""
 echo -e "\e[0;32mDownloaded successfully!\e[0m"
