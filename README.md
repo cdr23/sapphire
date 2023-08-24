@@ -1,6 +1,6 @@
 <h2 align="center">
 
-♦️Autoscript SSH XRAYS Websocket Multiport By NevermoreSSH♦️
+♦️Autoscript SSH XRAYS Websocket Multiport By CANDRA VPN STORES♦️
 
 Latest Xray Core
 
