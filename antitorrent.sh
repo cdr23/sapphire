@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="cdr23"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
@@ -44,7 +44,7 @@ do
 	echo "You don't need to touch anything here"
 	echo "Just sit back and relax"
 	echo " "
-	echo " ### By nevermore ###"
+	echo " ### By cdr23 ###"
 	echo " "
 	echo "     [ MENU ]"
 	echo "1. Go Back"
