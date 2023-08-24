@@ -16,7 +16,7 @@ Latest Xray Core
 <p align="center">
 
 
-## Register IP ( PM username & IP-VPS ) : <a href="https://t.me/todfix667" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+## Register IP ( PM username & IP-VPS ) : <a href="https://t.me/CandraVpnz" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 
 ## ⚠️ PLEASE README ⚠️
 
@@ -61,7 +61,7 @@ Latest Xray Core
 ## ♦️INSTALLATION SCRIPT ( Recommended Debian 10 )♦️
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/NevermoreSSH/sapphire/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/cdr23/sapphire/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
   ```
   
