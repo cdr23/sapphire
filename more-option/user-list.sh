@@ -1,6 +1,6 @@
-# Created by NevermoreSSH
+# Created by cdr23
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="cdr23"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
