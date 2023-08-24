@@ -680,7 +680,7 @@ export harini=$(grep -E "^#trws " "/usr/local/etc/xray/trojan.json" | cut -d ' '
 export exp=$(grep -E "^#trws " "/usr/local/etc/xray/trojan.json" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 export uuid=$(grep -E "^#trws " "/usr/local/etc/xray/trojan.json" | cut -d ' ' -f 5 | sed -n "${CLIENT_NUMBER}"p)
 
-export trojanlink1="trojan://${user}@${sts}${domain}:443?path=$patchtls&security=tls&host=bug.com&type=ws&sni=$sni#${user}"
+export trojanlink1="trojan://${user}@${sts}${domain}:443?path=$patchtls&security=tls&host=${sts}${domain}&type=ws&sni=$sni#${user}"
 export trojanlink="trojan://${user}@${sts}${domain}:80?path=$patchnone&security=none&host=$sni&type=ws#${user}"
 export trojanlink2="trojan://${user}@who.int:443?path=wss://who.int$patchtls&security=tls&host=${sts}${domain}&type=ws&sni=who.int#${user}"
 export trojanlink3="trojan://${user}@onlinepayment.celcom.com.my:443?path=wss://onlinepayment.celcom.com.my$patchtls&security=tls&host=${sts}${domain}&type=ws&sni=onlinepayment.celcom.com.my#${user}"
