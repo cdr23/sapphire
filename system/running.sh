@@ -3,7 +3,7 @@ export green="\e[0;32m"
 export NC="\e[0m"
 
 # // GIT USER
-export GitUser="NevermoreSSH"
+export GitUser="cdr23"
 export MYIP=$(wget -qO- icanhazip.com);
 
 # // VPS INFO
