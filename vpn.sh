@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="cdr23"
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
 OS=`uname -m`;
