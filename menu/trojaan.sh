@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="cdr23"
 
 # // IZIN SCRIPT
 export MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -408,8 +408,8 @@ until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${user_EXISTS} == '0' ]]; do
 			exit 1
 		fi
 	done
-export patchtls=/nevermore-trojanwstls
-export patchnone=/nevermore-trojanwsntls
+export patchtls=/trojanwstls
+export patchnone=/trojanwsntls
 read -p "   Bug Address (Example: www.google.com) : " address
 read -p "   Bug SNI (Example : m.facebook.com) : " sni
 read -p "   Expired (days) : " masaaktif
@@ -485,8 +485,8 @@ export masaaktif="1"
 export exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
 export user=Trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
 
-export patchtls=/nevermore-trojanwstls
-export patchnone=/nevermore-trojanwsntls
+export patchtls=/trojanwstls
+export patchnone=/trojanwsntls
 
 read -p "   Bug Address (Example: www.google.com) : " address
 read -p "   Bug SNI (Example : m.facebook.com) : " sni
