@@ -312,6 +312,7 @@ wget -O nf "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/nf
 wget -O dns "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/dns.sh"
 wget -O netf "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/netf.sh"
 wget -O ins-helium "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/ins-helium.sh"
+wget -O menu-backup "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu-backup.sh"
 chmod +x add-host
 chmod +x menu
 chmod +x add-ssh
@@ -364,6 +365,7 @@ chmod +x dns
 chmod +x nf
 chmod +x netf
 chmod +x ins-helium
+chmod +x menu-backup
 echo "0 1 * * * root delete && xp" >> /etc/crontab
 echo "*/2 * * * * root clear-log" >> /etc/crontab
 echo "0 5 * * * root reboot" >> /etc/crontab
